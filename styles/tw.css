@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.section-title {
+    @apply text-4xl py-6 dark:text-gray-50 text-GreenTitle;
+  }
+  
+  .etude-title {
+    @apply text-lg font-semibold bg-gray-100 dark:bg-gray-800 dark:text-slate-100 inline-block py-1 px-3 rounded-md shadow-md mb-2;
+  }
+  
+  .hover-scale {
+    @apply hover:scale-102 transform duration-200;
+  }
+  
+  .green-span-text {
+    @apply text-teal-500 dark:text-teal-400;
+  }
+  
